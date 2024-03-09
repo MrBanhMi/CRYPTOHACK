@@ -1,7 +1,7 @@
 # Bài 1 Quadratic Residues
 ![Screenshot 2024-03-07 214409](https://github.com/MrBanhMi/CRYPTOHACK/assets/155632468/41f7f2c1-85d4-4551-a96a-f3a87d671c7e)
 
-- Mô tả: Challenge này sẽ giúp ta hiểu được **Quadratic Residues** và **Quadratic Non-Residues** là gì, cách kiểm tra một số nguyên **x** có phải là Quadratic Residues hay không?
+- Mô tả: Challenge này sẽ giúp ta hiểu được **Quadratic Residues** và **Quadratic Non-Residues** là gì, cách kiểm tra một số nguyên **a** có phải là Quadratic Residues hay không?
 - Quadratic Residues tiếng việt nghĩa là **thặng dư bậc hai**, còn Quadratic Non-Residues là **bất thặng dư bậc 2**; Một số **a** được gọi là **thặng dư bậc hai mod p** nếu tồn tại số nguyên **x** sao cho **x^2 ≡ a (mod p)** với 0 < x < p và p là số nguyên tố.
 - Ví dụ: 8^2 ≡ **6** (mod 29) nghĩa là: "6 là thặng dư bậc 2 mod 29" vì trong khoảng (1, 29) số 8 khi bình phương là 64, số 64 khi mod cho 29 sẽ bằng 6.
 - Ví dụ: x^2 ≡ **3** (mod 5) nghĩa là: "3 là bất thặng dư bậc 2 mod 5" vì trong khoảng (1, 5) ta không thể tìm được số nào bình phương lên mà mod cho 5 bằng 3.
