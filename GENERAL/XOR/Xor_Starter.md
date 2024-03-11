@@ -25,4 +25,5 @@
       print(new_string, end="")
     #output sẽ là aloha
     ```
+ - Vậy Flag của challenge này là: crypto{aloha}
 
