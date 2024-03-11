@@ -11,10 +11,10 @@
   #output sẽ là 4
  ```
 - Hướng dẫn cách giải:
-  - Đề bài cho ta một chuỗi là **"label"** và số nguyên **13**, đề bài yêu cầu ta hãy xor **từng ký tự** của chuỗi **Label** với số **13** và ta sẽ được chuỗi mới, gắn chuỗi đó vào **crypto{...}** và ta sẽ có được Flag.
+  - Đề bài cho ta một chuỗi là **"label"** và số nguyên **13**, đề bài yêu cầu ta hãy xor **từng ký tự** của chuỗi **label** với số **13** và ta sẽ được chuỗi mới, gắn chuỗi đó vào **crypto{...}** và ta sẽ có được Flag.
   - Vì đề bài yêu cầu phải Xor từng ký tự với số 13 nên ta phải biến đổi từng ký tự đó về kiểu dữ liệu Integer thì mới Xor được với số 13.
   - Ta sẽ sử dụng hai hàm đó là hàm **chr()** và hàm **ord()**, hàm **chr()** sẽ có tác dụng biến một kiểu dữ liệu Integer sang kiểu dữ liệu ASCII tương ứng, còn hàm **ord()** sẽ thực hiện ngược lại.
-  - Ta sẽ cho **i** chạy qua từng ký tự của **"label"**, rồi dùng hàm **ord()** để chuyển ký tự đó sang Integer, sau đó Xor số 13 với kiểu Integer ta vừa mới chuyển đổi, rồi ta dùng hàm chr() để đổi kiểu dữ liệu ta vừa mới Xor được sang lại ASCII.
+  - Ta sẽ dùng vòng lặp **For**, cho **i** chạy qua từng ký tự của **"label"**, rồi dùng hàm **ord()** để chuyển ký tự đó sang Integer, sau đó Xor số 13 với kiểu Integer ta vừa mới chuyển đổi, rồi ta dùng hàm chr() để đổi kiểu dữ liệu ta vừa mới Xor được sang lại ASCII.
   - Đoạn Code sẽ như sau:
     ```python
     string = "label"
