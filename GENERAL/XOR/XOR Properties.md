@@ -1,5 +1,6 @@
 #  XOR Properties
-![image](https://hackmd.io/_uploads/SJktR1Apa.png)
+![image](https://github.com/MrBanhMi/CRYPTOHACK/assets/155632468/91fc0aee-bf6b-4772-a74f-f22c12c301a9)
+
 - Mô tả: Challenge này sẽ giới thiệu chúng ta về các tính chất của Xor bao gồm Commutative (giao hoán), Associative (kết hợp), Identity (đồng nhất) và Self-Inverse (nghịch đảo).
 - Xor có những tính chất sau:
     - Commutative: A ⊕ B = B ⊕ A
