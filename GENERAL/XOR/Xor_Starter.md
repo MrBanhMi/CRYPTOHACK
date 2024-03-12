@@ -15,6 +15,7 @@
   - Vì đề bài yêu cầu phải Xor từng ký tự với số 13 nên ta phải biến đổi từng ký tự đó về kiểu dữ liệu Integer thì mới Xor được với số 13.
   - Ta sẽ sử dụng hai hàm đó là hàm **chr()** và hàm **ord()**, hàm **chr()** sẽ có tác dụng biến một kiểu dữ liệu Integer sang kiểu dữ liệu ASCII tương ứng, còn hàm **ord()** sẽ thực hiện ngược lại.
   - Ta sẽ dùng vòng lặp **For**, cho **i** chạy qua từng ký tự của **"label"**, rồi dùng hàm **ord()** để chuyển ký tự đó sang Integer, sau đó Xor số 13 với kiểu Integer ta vừa mới chuyển đổi, rồi ta dùng hàm chr() để đổi kiểu dữ liệu ta vừa mới Xor được sang lại ASCII.
+  - Vd: khi i = "l", hàm ord() sẽ chuyển chữ "l" thành số 118, sau đó xor số 108 với số 13 sẽ được số 97, cuối cùng ta dùng hàm chr() chuyển từ số 97 thành chữ "a"
   - Đoạn Code sẽ như sau:
     ```python
     string = "label"
