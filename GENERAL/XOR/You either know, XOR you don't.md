@@ -1,4 +1,5 @@
 # You either know, XOR you don't
+![image](https://github.com/MrBanhMi/CRYPTOHACK/assets/155632468/a906057f-e919-400e-9bdf-dc88596b329c)
 
 - Mô tả: Challenge này xor flag với key nào đó và yêu cầu ta đi tìm flag, nó sẽ giúp chúng ta hiểu rõ hơn về xor và dùng xor thành thạo hơn.
     - Challenge này sẽ phức tạp hơn challenge trước, điểm chung ở đây là nó xor flag với một key nào đó, khác ở chỗ ở challenge trước thì key này là 1 bit bất kì, còn ở challenge này key bị giấu nhẹm đi.
