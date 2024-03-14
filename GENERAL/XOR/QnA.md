@@ -1,3 +1,2 @@
-#QnA
-- Có thể Xor những trường hợp nào?
-- 
+# QnA
+- Có thể Xor những trong trường hợp nào?
