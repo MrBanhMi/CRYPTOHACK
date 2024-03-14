@@ -1,4 +1,6 @@
 # Favourite byte
+![image](https://github.com/MrBanhMi/CRYPTOHACK/assets/155632468/fc3d0e44-af34-4179-b3de-9b676683c6f1)
+
 - Challenge này sẽ giúp ta ứng dụng các kiến thức đã học vào việc giải challenge.
 - Đề bài: Đề đã xor **flag** với một **bit** nào đó mà ta không biết, ta chỉ biết rằng bit đó nằm trong khoảng [0, 255]. Sau khi xor thì ta được kết quả:
     - **73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d**
@@ -10,7 +12,7 @@
 - Hướng dẫn:
     - Ta sẽ khai báo một **list**, rồi thêm từng phần tử của ouput vào list. Sau đó ta dùng vòng lặp **for** cho i đi qua từng phần tử của list. Với mỗi phần tử của list ta sẽ xor với 1 bit, thử qua toàn bộ 256 bit khi nào ra flag thì dừng.
     - Đoạn code sẽ như sau:
-        ```python=
+        ```python
         output = "73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d"
         bytes_value = bytes.fromhex(output)
         data = []
