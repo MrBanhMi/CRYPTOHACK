@@ -8,7 +8,7 @@
         print(text^key)
         #kết quả sẽ là 73
         ```
-  - Xor 2 kiểu dữ liệu **int** với nhau: Ta code tương tự như trên. Và 2 dữ liệu có thể khác chiều dài nhau
+  - Xor 2 kiểu dữ liệu **int** với nhau: Ta code tương tự như trên. Và 2 dữ liệu có thể khác chiều dài nhau.
       - Ví dụ:
         ```python
           text = 124
@@ -25,7 +25,7 @@
         print(text^key)
         #kết quả sẽ là 115
         ```
-  - Xor kiểu dữ liệu **string** với **binary** hoặc **integer**: Bây giờ thì ta không thể dùng kí hiệu **"^"** để xor nguyên chuỗi với giá trị bin/int được mà phải tách từng phần tử của chuỗi ra, chuyển thành kiểu integer hoặc binary rồi xor với dữ liệu kiểu binary.
+  - Xor kiểu dữ liệu **string** với **binary** hoặc **integer**: Bây giờ thì ta không thể dùng kí hiệu **"^"** để xor nguyên chuỗi với giá trị bin/int được mà phải tách từng phần tử của chuỗi ra, chuyển thành kiểu integer hoặc binary rồi xor với dữ liệu kiểu binary/integer.
       - Ví dụ:
         ```python
         text = "hao"
