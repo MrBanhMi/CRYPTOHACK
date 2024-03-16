@@ -1,4 +1,6 @@
 # Extended GCD
+![image](https://github.com/MrBanhMi/CRYPTOHACK/assets/155632468/cd2885c8-53b5-465e-9eb4-834045692a01)
+
 - Challenge nãy sẽ giới thiệu chúng ta về **Extended GCD** và cách để tính EGCD.
 - **Extended GCD** hay còn gọi là **thuật toán euclid mở rộng**. EGCD là một cách vô cùng hiệu quả để tính hai số nguyên **u** và **v** sao cho:
     - **a * u + b * v = gcd(a,b)**
@@ -30,7 +32,7 @@
             - Ví dụ: tìm **x** sao cho **5 * x ≡ 1 (mod 3)**, tức là tìm phần tử nghịch đảo của 5 trong mod 3 hay tìm x để cho khi x nhân 5 mod 3 sẽ được 1. Ta sẽ tìm được x = 2 là phần tử nghịch đảo của 5 trong mod 3 vì 2 * 5 = 10; 10 % 3 = 1.
 - Hướng dẫn giải challenge:
     - Ta code như sau:
-    ```python!
+    ```python
     def extended_euclidean_algorithm(a, b):
         if b == 0:
             return a, 1, 0
