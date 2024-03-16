@@ -1,4 +1,6 @@
 # Greatest Common Divisor
+![image](https://github.com/MrBanhMi/CRYPTOHACK/assets/155632468/073579b1-73b2-4b64-9b29-3e4681092493)
+
 - Mô tả: Challenge này sẽ giới thiệu cho chúng ta **The Greatest Common Divisor** (GCD) là gì và cách dùng **thuật toán Euclid** để tìm GCD.
 - **The Greatest Common Divisor** (GCD) tiếng việt là **Ước chung lớn nhất**. Ước chung lớn nhất là số nguyên dương lớn nhất là ước số chung của các số đó. Ví dụ, ước chung lớn nhất của 6 và 15 là 3, kí hiệu GCD(6, 15) = 3.
 - Hai số **a** và **b** được gọi là **số nguyên tố cùng nhau** nếu có GCD(a, b) = 1.
