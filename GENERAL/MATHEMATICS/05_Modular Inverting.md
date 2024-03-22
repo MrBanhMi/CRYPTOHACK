@@ -3,10 +3,10 @@
 
 - **Mô tả**: challenge này sẽ cho ta một vài ví dụ và đào sâu vào **phần tử nghịch đảo modulo**.
 - Chúng ta biết rằng trong trường **Fp**, là tập hợp các số nguyên **{0,1,2,..p-1}**. Với mọi phần tử **g** của miền **Fp**, **tồn tại** một số nguyên **d** duy nhất nào đó sao cho **g * d ≡ 1 (mod p)**. 
-- Nói cách khác thì **d** là **phần tử nghịch đảo** của **g**. Hai số này khi **nhân cho nhau** và **chia cho p** thì sẽ **dư 1**. **Chú ý** hai số nguyên **g** & **d** này phải nằm trong trường Fp nghĩa là chúng nó phải nằm trong đoạn **[0, p-1]**.
-- Chú ý quan trọng: chỉ khi **GCD(a, p) = 1**, tức **a** và **p** là hai số nguyên tố cùng nhau, có nghĩa p phải là **số nguyên tố** thì mới **tồn tại phần tử nghịch đảo** của **a**, còn ngược lại **p** không phải số nguyên tố thì **không tồn tại phần tử nghịch đảo**:
-  - Ví dụ: **x * 6 ≡ 1 mod 10**, ở đây **p = 10** không phải số nguyên tố, bạn sẽ không thể tìm được số x nào mà nhân với 6 rồi đem chia cho 10 mà ra 1 cả.
-  - Nhưng nếu ta thay **p** bằng số nguyên tố **11** thì kết quả sẽ khác: **x * 6 ≡ 1 mod 11** thì kết quả **x = 2**. Vì 2 * 6 bằng 12, và 12 % 11 = 1.
+- Nói cách khác thì **d** là **phần tử nghịch đảo** của **g**. Hai số này khi **nhân cho nhau** và **chia cho p** thì sẽ **dư 1**. Hai số nguyên **g** & **d** này phải nằm trong trường Fp nghĩa là chúng nó phải nằm trong đoạn **[0, p-1]**.
+- **Chú ý quan trọng**: chỉ khi **GCD(a, p) = 1**, tức **a** và **p** là hai số nguyên tố cùng nhau thì mới **tồn tại phần tử nghịch đảo** của **a**.
+  - Ví dụ: **x * 6 ≡ 1 mod 10**, ở đây **p = 10** và **a = 6** không nguyên tố cùng nhau, bạn sẽ không thể tìm được số x nào mà nhân với 6 rồi đem chia cho 10 mà ra 1 cả.
+  - Nhưng nếu ta thay **p** bằng số nguyên tố **11** thì kết quả sẽ khác: **x * 6 ≡ 1 mod 11** thì kết quả là **x = 2**. Vì 2 * 6 bằng 12, và 12 % 11 = 1.
 - Hướng dẫn giải challenge:
   - Đề bài như sau: **3 * d ≡ 1 mod 1**, tìm d.
   - Tức là đang kêu ta tìm phần tử nghịch đảo của **3** trong **modulo 13**.
