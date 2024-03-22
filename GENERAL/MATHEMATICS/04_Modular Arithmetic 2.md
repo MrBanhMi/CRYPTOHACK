@@ -2,7 +2,7 @@
 ![image](https://github.com/MrBanhMi/CRYPTOHACK/assets/155632468/ea9d42ea-e9d8-4d59-b62f-286313859d14)
 
 - **Mô tả**: Challenge này giới thiệu cho chúng ta về **phần tử nghịch đảo** và **định lí Fermat nhỏ**.
-- Trong miền **Fp** giới hạn, là tập hợp của **các số nguyên {0,1,...,p-1}**, với **phép cộng** và **phép nhân** thì ta có một **phần tử nghịch đảo b** với một phần tử **a** nào đó sao cho **a + b = 0** và **a * b = 1**.
+- Trong trường **Fp** giới hạn, là tập hợp của **các số nguyên {0,1,...,p-1}**, với **phép cộng** và **phép nhân** thì ta có một **phần tử nghịch đảo b** với một phần tử **a** nào đó sao cho **a + b = 0** và **a * b = 1**.
 - Để nói rõ hơn thì mình xin giải thích như sau: **phần tử nghịch đảo** của phép nhân là một số **b** nào đó khi mà **nhân với a** rồi đem kết quả **chia lấy dư** cho **p** thì được kết quả là **1**.
 
    ![image](https://github.com/MrBanhMi/CRYPTOHACK/assets/155632468/2b82a23e-17e5-447f-8814-ef8aca297f56)
