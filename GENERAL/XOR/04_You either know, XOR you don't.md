@@ -1,10 +1,10 @@
 # You either know, XOR you don't
 ![image](https://github.com/MrBanhMi/CRYPTOHACK/assets/155632468/a906057f-e919-400e-9bdf-dc88596b329c)
 
-- Mô tả: Challenge này xor flag với key nào đó và yêu cầu ta đi tìm flag, nó sẽ giúp chúng ta hiểu rõ hơn về xor và dùng xor thành thạo hơn.
-    - Challenge này sẽ phức tạp hơn challenge trước, điểm chung ở đây là nó xor flag với một key nào đó, khác ở chỗ ở challenge trước thì key này là 1 bit bất kì, còn ở challenge này key bị giấu nhẹm đi.
-    -  May mắn là đề có gợi ý "Nhớ cái format của flag sẽ giúp chúng ta giải challenge này"
-- Mình sẽ giới thiệu một hàm cực mạnh là hàm xor() của pwn tool, từ giờ ta không cần phải mệt mỏi tách từng phần tử rồi xor nữa mà ta chỉ cần khai báo rồi dùng thôi.
+- **Mô tả**: Challenge này xor **flag** với **key nào đó** và yêu cầu ta đi tìm flag, nó sẽ giúp chúng ta hiểu rõ hơn về xor và dùng xor thành thạo hơn.
+    - Challenge này sẽ **phức tạp** hơn challenge trước, điểm chung ở đây là nó xor **flag** với một **key nào đó**, khác ở chỗ ở challenge trước thì key này là **1 bit bất kì**, còn ở challenge này **key bị giấu** nhẹm đi.
+    -  May mắn là đề có gợi ý **"Nhớ cái format của flag sẽ giúp chúng ta giải challenge này"**
+- Mình sẽ giới thiệu một hàm cực mạnh là hàm **xor()** của **pwn tool**, từ giờ ta không cần phải mệt mỏi tách từng phần tử rồi xor nữa mà ta chỉ cần khai báo rồi dùng thôi.
     - Hướng dẫn sử dụng trước khi dùng: 
         - Khai báo: `from pwn import xor`
         - Ví dụ: 
@@ -14,7 +14,7 @@
         print(xor(50, 60))
         #kết quả là: b'\x03\x02\x1c\x0b' và b'\x0e' đều là kiểu bytes
         ```
-        - Lưu ý: hàm xor() chỉ có thể xor 2 kiểu dữ liệu là kiểu bytes hoặc integer với nhau, nên kết quả của cuộc tình trên sẽ là kiểu dữ liệu bytes.
+        - Lưu ý: hàm xor() chỉ có thể xor 2 kiểu dữ liệu là kiểu **bytes** hoặc **integer** với nhau, nên kết quả của cuộc tình trên sẽ là kiểu dữ liệu **bytes**.
 - Hướng dẫn cách giải:
     - Vì đề gợi ý là hãy nhớ format của flag nên ta sẽ **thử** xor dữ kiện đề cho với từ **"crypto{"**.
         
